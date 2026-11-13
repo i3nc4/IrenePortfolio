@@ -1,0 +1,129 @@
+/* ============================================================
+   THEME TOKENS
+   Light + dark palettes built on the pastel purple palette.
+   Change the tint values here to re-skin the whole website.
+   ============================================================ */
+
+:root {
+  color-scheme: light;
+
+  /* Raw palette */
+  --purple-50: #faf5ff;
+  --purple-100: #f3e8ff;
+  --purple-200: #e6d2ff;
+  --purple-300: #d7bbff;
+  --purple-400: #c7a5ff;
+  --purple-500: #b586f0;
+  --purple-600: #9a64e8;
+  --purple-700: #7b46d1;
+  --purple-800: #5e359f;
+  --purple-900: #2c1d43;
+  --purple-950: #1c112d;
+
+  /* Surfaces */
+  --bg: #f8f3ff;
+  --bg-alt: #f3e8ff;
+  --surface: #ffffff;
+  --surface-2: #f7efff;
+  --surface-3: #efe2ff;
+  --border: #e9dcfa;
+  --border-strong: #d7bbff;
+
+  /* Typography */
+  --text: #241833;
+  --text-muted: #6d5f82;
+  --text-soft: #8e7fa4;
+
+  /* Accents */
+  --accent: #c7a5ff;
+  --accent-2: #d7bbff;
+  --accent-strong: #8b5ad9;
+  --accent-ink: #7b46d1;
+  --accent-soft: #f3e8ff;
+  --accent-contrast: #291542;
+  --accent-glow: rgba(139, 90, 217, 0.35);
+  --focus-ring: rgba(123, 70, 209, 0.45);
+  --danger: #b23b5a;
+  --danger-soft: #fdf0f3;
+  --danger-border: #f3c9d4;
+  --success: #2f7a5e;
+  --success-soft: #eef9f3;
+  --success-border: #c4e7d6;
+
+  --gradient-primary: linear-gradient(135deg, #d3b6ff 0%, #b586f0 55%, #a06be8 100%);
+  --gradient-text: linear-gradient(105deg, #7b46d1 0%, #a56bff 55%, #c78fff 100%);
+  --gradient-panel: linear-gradient(145deg, #ffffff 0%, #f6edff 100%);
+  --gradient-border: linear-gradient(135deg, #d7bbff, #f3e8ff 45%, #c7a5ff);
+
+  /* Header & overlays */
+  --header-bg: rgba(255, 255, 255, 0.76);
+  --header-border: rgba(215, 187, 255, 0.65);
+  --overlay: rgba(28, 17, 45, 0.52);
+
+  /* Shadows */
+  --shadow-xs: 0 2px 8px rgba(76, 43, 125, 0.05);
+  --shadow-sm: 0 10px 24px -16px rgba(76, 43, 125, 0.35);
+  --shadow-md: 0 20px 45px -24px rgba(76, 43, 125, 0.35);
+  --shadow-lg: 0 32px 70px -34px rgba(76, 43, 125, 0.45);
+  --shadow-button: 0 14px 28px -14px rgba(123, 70, 209, 0.55);
+
+  /* Layout */
+  --font-display: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --container: 1180px;
+  --gutter: clamp(1.15rem, 4vw, 2.25rem);
+  --nav-height: 76px;
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 26px;
+  --radius-xl: 34px;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --bg: #120c1c;
+  --bg-alt: #171021;
+  --surface: #1c142b;
+  --surface-2: #231934;
+  --surface-3: #2c2042;
+  --border: #34264a;
+  --border-strong: #4a3568;
+
+  /* Typography */
+  --text: #f4edff;
+  --text-muted: #b3a4c9;
+  --text-soft: #8f80a8;
+
+  /* Accents */
+  --accent: #c9a8ff;
+  --accent-2: #a97be6;
+  --accent-strong: #d6bdff;
+  --accent-ink: #dcc7ff;
+  --accent-soft: #2a1c40;
+  --accent-contrast: #1b102c;
+  --accent-glow: rgba(201, 168, 255, 0.28);
+  --focus-ring: rgba(214, 189, 255, 0.55);
+  --danger: #ffa8bc;
+  --danger-soft: #2b1520;
+  --danger-border: #5a2a3a;
+  --success: #9ce3c3;
+  --success-soft: #122a22;
+  --success-border: #245040;
+
+  --gradient-primary: linear-gradient(135deg, #dcc6ff 0%, #c9a8ff 50%, #b58cf0 100%);
+  --gradient-text: linear-gradient(105deg, #f0e2ff 0%, #d7bbff 50%, #b98ff2 100%);
+  --gradient-panel: linear-gradient(145deg, #201631 0%, #1a1229 100%);
+  --gradient-border: linear-gradient(135deg, #5c4382, #2b1e42 50%, #4a3568);
+
+  --header-bg: rgba(20, 13, 31, 0.78);
+  --header-border: rgba(74, 53, 104, 0.7);
+  --overlay: rgba(7, 3, 12, 0.68);
+
+  --shadow-xs: 0 2px 10px rgba(0, 0, 0, 0.25);
+  --shadow-sm: 0 12px 28px -18px rgba(0, 0, 0, 0.7);
+  --shadow-md: 0 24px 55px -26px rgba(0, 0, 0, 0.75);
+  --shadow-lg: 0 36px 80px -36px rgba(0, 0, 0, 0.85);
+  --shadow-button: 0 14px 30px -14px rgba(201, 168, 255, 0.35);
+}
